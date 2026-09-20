@@ -18,10 +18,10 @@ def test_is_valid_phone_true():
     result = is_valid_phone(phone)
     assert result == True
 
-# def test_mask_email_basic():
-#     """Test masking a typical email address."""
-#     email = "priya@example.com"
-#
-#     result = mask_email(email)
-#
-#     assert result == "pr***@example.com"
+def test_mask_email_basic():
+    """Test masking a typical email address."""
+    email = "priya@example.com"
+
+    result = mask_email(email)
+
+    assert result == "pr***@example.com"
